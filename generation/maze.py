@@ -9,6 +9,8 @@ class Maze():
 
     def reset_maze(self):
         self.maze = []
+        self.x_host = 1.5
+        self.y_host = 0.5
 
 
     def walk(self, x, y, vis, ver, hor):

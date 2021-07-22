@@ -47,3 +47,11 @@ def execute_path(test_maze, moves, x1, y1):
                 x1, y1 = go_left(x1, y1)
             elif moves[i][1]-1 == moves[i+1][1]:
                 x1, y1 = go_up(x1, y1)
+
+
+def transpose2D(arr):
+    return list(zip(*arr))
+
+
+def reverse2D(arr):
+    return [a[::-1] for a in arr]
